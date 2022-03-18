@@ -6,11 +6,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.app{
+  background-image: radial-gradient(#030101, #2e68e5);
+background-image: radial-gradient(circle at top right, #301b04, rgb(11, 52, 80), #2e31e5);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-h1{
+  color: wheat;
+  border: #ccb0b0 solid 0.1rem;
+  padding: 1%;
+  border-radius: 10%;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+
 
 .container {
   max-width: 962px;
@@ -25,7 +39,7 @@ code {
 
 
 .note {
-  background-color: rgba(205, 177, 50, 0.781);
+  background-color: rgb(253, 253, 108);
   border-radius: 10px;
   padding: 1rem;
   min-height: 170px;
@@ -85,7 +99,11 @@ textarea:focus {
 
 .delete-icon{
   cursor: pointer;
-  background-color: red;
+  font-size: 2rem;
+}
+
+.delete-icon:hover{
+  color: rgba(19, 4, 2, 0.623);
 }
 
 .search{

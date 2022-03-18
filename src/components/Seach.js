@@ -8,7 +8,7 @@ const Search = ({ handleSearchNote }) => {
       <input
         onChange={(props) => handleSearchNote(props.target.value)}
         type="text"
-        placeholder="type pls"
+        placeholder="filter"
       ></input>
     </div>
   );
